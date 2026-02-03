@@ -1,0 +1,8 @@
+uv package installation->>>>powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+step 3--setx PATH "$env:PATH;C:\Users\kunjb\.local\bin"
+step 2-uvinit
+### this may throw error
+ uv venv myenv1 --python 3.13
+ uv add -r requirements.txt
+ uv add ipykernel

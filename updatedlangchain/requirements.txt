@@ -1,0 +1,19 @@
+# Core LangChain
+langchain==1.2.3
+
+# LLM providers
+langchain-google-genai          # Google Gemini / GenAI
+langchain-openai                # OpenAI (optional if you mix providers)
+langchain-groq                  # Groq AI (optional)
+
+# Vector stores / embeddings
+chromadb                        # Chroma DB backend
+langchain-chroma       # LangChain Chroma integration
+sentence_transformers           # For embedding models if needed
+
+# Community tools
+langchain_community             # Optional, contains extra connectors/tools
+
+# Utilities
+python-dotenv                   # For .env files (API keys, etc.)
+pypdf                           # PDF parsing
