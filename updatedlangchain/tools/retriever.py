@@ -36,7 +36,7 @@ def rag_tool(query: str) -> str:
 
     """
    
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001",api_key="AIzaSyCm5bpeQwg8ZZrUQvVDdg-tzHpNSvPuvMQ")
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001",api_key="")
     print("Embeddings embeddings")
 
     vectorstore = Chroma(
