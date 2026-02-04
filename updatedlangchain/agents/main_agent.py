@@ -82,7 +82,7 @@
 #         #model="gemini-2.5-flash",
 #         model="gemini-2.5-flash-lite",
 #         temperature=0.2,
-#         api_key="AIzaSyCm5bpeQwg8ZZrUQvVDdg-tzHpNSvPuvMQ"
+#         api_key=""
 #     )
 
 #     # 2) Use tool functions directly (no Tool class)
@@ -109,7 +109,7 @@ def build_agent():
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash-lite",
         temperature=0.2,
-        api_key="AIzaSyCm5bpeQwg8ZZrUQvVDdg-tzHpNSvPuvMQ"
+        api_key=""
     )
 
     tools = [rag_tool, web_search]
